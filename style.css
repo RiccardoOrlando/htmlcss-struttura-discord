@@ -82,9 +82,27 @@ header {
 .col-big{
     background-color: #1e90ff;
     width: 60%;
+    min-height: 500px;
+    border: dashed 2px black;
+    margin: 50px 0;
 }
 
 .col-small{
     background-color: #ffc0cb;
     width: 40%;
+    min-height: 500px;
+    border: dashed 2px black;
+    margin: 50px 0;
+}
+
+.container-big-small{
+    background-color: #d3d3d3;
+}
+
+.standard-width > .container {
+    background-color: #228b22;
+    min-height: 900px;
+    width: 100%;
+    border: dashed 2px black;
+    margin: 50px 0;
 }
