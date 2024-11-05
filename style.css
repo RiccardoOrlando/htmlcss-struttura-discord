@@ -1,0 +1,90 @@
+/*------------------------
+        RESET
+---------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*------------------------
+        GENERALI
+---------------------- */
+
+.standard-width {
+  display: flex;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*------------------------
+        HEADER
+---------------------- */
+
+header {
+  background-color: #add8e6;
+}
+
+.header-top {
+  padding: 15px;
+}
+
+.header-top > .container {
+  display: flex;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #daa520;
+}
+
+.header-top .logo {
+  width: 20%;
+  border: dashed 1px black;
+  padding: 6px;
+}
+
+.header-top .link {
+  width: 60%;
+  text-align: center;
+  border: dashed 1px black;
+  padding: 6px;
+}
+
+.header-top .login {
+  width: 20%;
+  text-align: right;
+  border: dashed 1px black;
+  padding: 6px;
+}
+
+.header-bottom {
+  background-color: #00008b;
+  display: flex;
+  padding: 50px 0;
+}
+
+.header-bottom > .container {
+  min-width: 910px;
+  min-height: 400px;
+  border: dashed 2px black;
+  background-color: #ee82ee;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*------------------------
+        MAIN
+---------------------- */
+
+.col-big{
+    background-color: #1e90ff;
+    width: 60%;
+}
+
+.col-small{
+    background-color: #ffc0cb;
+    width: 40%;
+}
