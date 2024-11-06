@@ -14,7 +14,7 @@
 
 .standard-width {
   display: flex;
-  width: 1200px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -34,7 +34,7 @@ header {
 
 .header-top > .container {
   display: flex;
-  width: 1200px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   background-color: #daa520;
@@ -67,7 +67,7 @@ header {
 }
 
 .header-bottom > .container {
-  min-width: 910px;
+  width: 910px;
   min-height: 400px;
   border: dashed 2px black;
   background-color: #ee82ee;
@@ -134,7 +134,7 @@ footer {
 .footer-credits{
     background-color: #7fffd4;
     display: flex;
-    width: 1200px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
