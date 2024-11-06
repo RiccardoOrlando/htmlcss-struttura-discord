@@ -106,3 +106,44 @@ header {
     border: dashed 2px black;
     margin: 50px 0;
 }
+
+/*------------------------
+        FOOTER
+---------------------- */
+
+footer {
+    background-color: #23272a;
+}
+
+.col-red{
+    width: 40%;
+    min-height: 580px;
+    background-color: #f08080;
+    border: dashed 2px black;
+    margin: 15px 0 45px 0;
+}
+
+.col-aqua{
+    width: 15%;
+    min-height: 580px;
+    background-color: #20b2aa;
+    border: dashed 2px white;
+    margin: 15px 0 45px 0;
+}
+
+.footer-credits{
+    background-color: #7fffd4;
+    display: flex;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.logo2, .bottone{
+    border: dashed 2px black;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
